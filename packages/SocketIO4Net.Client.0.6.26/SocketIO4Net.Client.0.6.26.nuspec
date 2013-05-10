@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>SocketIO4Net.Client</id>
+    <version>0.6.26</version>
+    <title>SocketIO4Net.Client</title>
+    <authors>J.W. Stott</authors>
+    <owners>J.W. Stott</owners>
+    <licenseUrl>http://opensource.org/licenses/ms-pl.html</licenseUrl>
+    <projectUrl>http://socketio4net.codeplex.com/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>SocketIO4Net.Client is a C# websocket client for the very popular Socket.IO project by Guillermo Rauch.  It leverages the WebSocket4Net client and SuperWebSocket library by Kerry Jiang as the underlying websocket provider. 
+
+SocketIO4Net.Client can interact with Socket.IO instances in a very similar manner as  Socket.IO JavaScript clients.  This project aims to fill the JavaScript client and C# client gap for Socket.IO, and retain a very similar application experience.</description>
+    <summary>.net 4.0 websocket client for Socket.IO</summary>
+    <releaseNotes>This version only works with the Socket.IO 'websocket' transport layer.  
+
+It is compatible with websocket drafts:
+Hybi-10, RFC6455</releaseNotes>
+    <copyright>2012</copyright>
+    <tags>websocket socket.io nodejs</tags>
+    <dependencies>
+      <dependency id="newtonsoft.json" version="4.0.8" />
+    </dependencies>
+  </metadata>
+</package>
